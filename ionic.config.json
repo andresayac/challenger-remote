@@ -1,0 +1,7 @@
+{
+  "name": "RemoteTv",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
