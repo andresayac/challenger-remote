@@ -1,9 +1,9 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'io.github.andresayac.remotetv',
   appName: 'RemoteTv',
-  webDir: 'dist'
+  webDir: 'dist',
 };
 
 export default config;
