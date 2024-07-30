@@ -2,7 +2,7 @@ import React from 'react';
 import { IonCard, IonCardContent, IonButton, IonGrid, IonRow, IonCol, IonIcon, IonInfiniteScroll, } from '@ionic/react';
 import { arrowUp, arrowDown, arrowForward, arrowBack, power, volumeHigh, volumeLow, volumeMute, menu, close, informationCircleOutline, videocamOutline, caretUpCircleOutline, caretDownCircleOutline, checkmarkCircleOutline } from 'ionicons/icons';
 import './RemoteController.css';
-import { IrTransmitter } from 'capacitor-ir-transmitter';
+import { IrTransmitter } from '@andresayac/capacitor-ir-transmitter';
 
 import { IR_COMMANDS } from '@/constants/index';
 
