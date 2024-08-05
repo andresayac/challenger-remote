@@ -9,6 +9,13 @@ export const IR_COMMANDS = {
     RIGHT: 0x42,
     OK: 0x41,
 
+    RETURN: 0xC,
+    POINT : 0xE,
+
+    SMART_BTN: 0x17, 
+    YOUTUBE: 0x5D,
+    HOME: 0x47,
+
     POWER: 0x3,
     MUTE: 0x15,
     VOLUME_UP: 0x16,
@@ -32,13 +39,23 @@ export const IR_COMMANDS = {
     KEY_8: 0x9,
     KEY_9: 0xA,
 
-    MEDIA: 0,
-    PLAY: 0,
-    PAUSE: 0,
-    STOP: 0,
-    RECORD: 0,
-    FAST_FORWARD: 0,
-    FAST_BACKWARD: 0,
-    NEXT: 0,
-    PREVIOUS: 0,
+    PLAY_PAUSE: 0x52,
+    STOP: 0x53,
+    FAST_BACKWARD: 0x4D,
+    FAST_FORWARD: 0x4E,
+    PREVIOUS: 0x50,
+    NEXT: 0x51,
+
+    COLOR_RED: 0x48,
+    COLOR_GREEN: 0x49,
+    COLOR_YELLOW: 0x4A,
+    COLOR_BLUE: 0x4C,
+
+    MODE: 0x10,
+    SMODE: 0x11,
+    SLEEP: 0x19,
+    GUIDE: 0x59,
+
+    FAVORITE: 0x58,
+    USB: 0x56,
 }
